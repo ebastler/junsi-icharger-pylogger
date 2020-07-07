@@ -4,6 +4,9 @@ This is a python 3.x script intended to allow logging data collected by a junsic
 
 Simply launch the script using `python pylogger.py` (depending on your system configuration, `python3` or `python3.x` might be needed) after connecting the charger. It will then periodically output the current device status, next to all measurments, into the console and if the device status is either 'charging' or 'discharging', it will log data in a separate .csv file per operation.
 
+![sample output](sample_output.jpg)
+
+
 ## Caveats
 If you stop and restart the script, all previously recorded data will be overwritten - consider copying data you want to keep out of the directory as soon as the script is stopped.
 
